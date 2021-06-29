@@ -1,12 +1,5 @@
 module.exports = {
   giideList: [
-    // {
-    //   title: 'Call for Code',
-    //   author: 'Laisha Desmuke',
-    //   duration: '14:39',
-    //   thumbnailUrl: require('../assets/images/explore/call_for_code.jpg'),
-    //   category: 'explore'
-    // },
     {
       title: 'Call for Code',
       author: 'Laisha Desmuke',
