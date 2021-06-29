@@ -1,0 +1,20 @@
+{
+  "name": "giide_takehomeassessment_gretaschock",
+  "version": "1.0.0",
+  "description": "Take home assessment for Giide's interview process",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greta-schock/Giide_TakeHomeAssessment_GretaSchock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greta-schock/Giide_TakeHomeAssessment_GretaSchock/issues"
+  },
+  "homepage": "https://github.com/greta-schock/Giide_TakeHomeAssessment_GretaSchock#readme"
+}
