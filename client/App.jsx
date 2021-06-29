@@ -4,8 +4,8 @@ import giideList from '../data.js'
 const App = () => {
     return (
         <>
-        {console.log(giideList)}
-        <div>App is up and running!</div>
+        <h2>Explore</h2>
+        <h2>Learn</h2>
         </>
     )
 }
