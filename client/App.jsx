@@ -5,3 +5,5 @@ const App = () => {
         <div>App is up and running!</div>
     )
 }
+
+export default App;
