@@ -1,9 +1,13 @@
 import React from 'react';
 
 const GiideCard = ({ giideItem }) => {
+    console.log(giideItem)
     return (
         <>
-            <div>Giide Card is working</div>
+            <img src={giideItem.thumbnailUrl.default} alt=""/>
+            <div>{giideItem.title}</div>
+            <div>By {giideItem.author}</div>
+            <div>{giideItem.duration}</div>
         </>
     )
 
