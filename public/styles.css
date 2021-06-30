@@ -58,3 +58,8 @@ main * {
     box-sizing: border-box;
     display: flex;
 }
+
+.play_button {
+    height: 20px;
+    /* height: auto; */
+}
