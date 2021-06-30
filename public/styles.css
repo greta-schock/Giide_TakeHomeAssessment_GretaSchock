@@ -2,8 +2,12 @@ h2 {
     margin-top: 60px;
 }
 
+main * {
+    width: 100%;
+}
+
 /* Main Container */
-.explore_exploreGiideList__1R6Iy {
+.giide_list {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -12,11 +16,7 @@ h2 {
     overflow: hidden;
 }
 
-.explore_cardContainerFeatured__2IzXs {
-    margin-bottom: 60px;
-}
-
-.explore_cardContainer__1FiHX {
+.cardContainer {
     grid-column: 2/13;
     width: 100%;
     overflow-x: scroll;
@@ -24,8 +24,13 @@ h2 {
     padding-bottom: 25px;
 }
 
-@media only screen and (max-width: 1200px){
+.cardContainerFeatured {
+    margin-bottom: 60px;
+}
+
+
+/* @media only screen and (max-width: 1200px){
 .explore_cardContainer__1FiHX {
     white-space: nowrap;
 }
-}
+} */
