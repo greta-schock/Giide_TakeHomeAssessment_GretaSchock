@@ -63,11 +63,21 @@ main * {
     display: flex;
 }
 
-.components_giideCardContent > div{
+.components_giideCardContent>img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.components_giideCardContent > div {
     display: flex;
     flex-direction: column;
 }
-.play_button {
-    height: 20px;
-    /* height: auto; */
+
+.components_GiideCardContent>div>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
