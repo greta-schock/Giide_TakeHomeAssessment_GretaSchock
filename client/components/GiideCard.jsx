@@ -3,7 +3,12 @@ import React from 'react';
 const GiideCard = ({ giideItem }) => {
     return (
         <>
-            <a href="https://www.youtube.com/watch?v=tSDXguiVLso" target="_blank">
+            <a href="https://www.youtube.com/watch?v=tSDXguiVLso" 
+                target="_blank"
+                rel="noopener noreferrer"
+                tabIndex="0"
+                className="components_exploreGiideCard components_exploreGiideCardFeatured"
+                >
                 <div className="giideCard_thumbnail_container">
                     <img src={giideItem.thumbnailUrl.default} alt="giide card thumbnail" />
                 </div>

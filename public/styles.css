@@ -7,7 +7,7 @@ main * {
 }
 
 /* Main Container */
-.giide_list {
+.exploreGiideList {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
@@ -28,9 +28,20 @@ main * {
     margin-bottom: 60px;
 }
 
-
-/* @media only screen and (max-width: 1200px){
-.explore_cardContainer__1FiHX {
-    white-space: nowrap;
+.components_exploreGiideCard {
+    margin: 0 15px 25px 0;
+    box-shadow: 4px 4px 4px rgb(44 44 44 / 10%);
+    border-radius: 2px;
+    border: .25px solid #d3d3d3;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 300px;
+    overflow: hidden;
 }
-} */
+
+@media (max-width: 450px){
+    .components_exploreGiideCardFeatured__25eDt {
+        max-width: none;
+        margin-bottom: 40px;
+    }
+}

@@ -8,7 +8,7 @@ const App = () => {
     var learnGiideList = giideList.filter(giideItem => giideItem.category === 'learn');
 
     return (
-        <div className="giide_list">
+        <div className="exploreGiideList">
             <h2>Explore</h2>
             <div className="cardContainer cardContainerFeatured">
                 {exploreGiideList.map((giideItem, index) => (
@@ -19,7 +19,7 @@ const App = () => {
                 ))}
             </div>
             <h2>Learn</h2>
-            <div className="explore_cardContainer">
+            <div className="cardContainer cardContainerFeatured">
                 {learnGiideList.map((giideItem, index) => (
                     <GiideCard
                         key={index + giideItem.title}
