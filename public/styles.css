@@ -72,6 +72,8 @@ main * {
     padding: 15px;
     box-sizing: border-box;
     display: flex;
+    width: auto;
+    font-size: 10pt;
 }
 
 .components_giideCardContent>img {
@@ -79,19 +81,18 @@ main * {
     height: 20px;
     object-fit: contain;
     align-self: center;
-    margin-right: 15px;
 }
 
-/* .components_giideCardContent>div {
+.components_giideCardContent>div {
     display: flex;
     flex-direction: column;
-} */
+}
 
-/* .components_GiideCardContent>div>div {
+.components_GiideCardContent>div>div {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-} */
+}
 
 .components_giideCardTopRow {
     display: flex;
