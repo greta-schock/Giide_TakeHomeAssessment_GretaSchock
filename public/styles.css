@@ -93,13 +93,6 @@ main * {
     margin-bottom: 5px;
 }
 
-.components_giideCardTopRow {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
-    
-}
-
 .components_giideCardTitle {
     font-weight: 500;
     margin-right: 50px;
