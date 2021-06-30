@@ -9,7 +9,7 @@ const GiideCard = ({ giideItem }) => {
                 tabIndex="0"
                 className="components_exploreGiideCard components_exploreGiideCardFeatured"
                 >
-                <div className="giideCard_thumbnail_container">
+                <div className="components_giideCardThumbnailContainer">
                     <img src={giideItem.thumbnailUrl.default} alt="giide card thumbnail" />
                 </div>
                 <div>

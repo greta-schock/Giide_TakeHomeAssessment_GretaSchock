@@ -45,3 +45,10 @@ main * {
         margin-bottom: 40px;
     }
 }
+
+.components_giideCardThumbnailContainer {
+    object-fit: contain;
+    height: 170px;
+    overflow: hidden;
+    display: flex;
+}
