@@ -1,8 +1,31 @@
-.explore_exploreGiideList {
+h2 {
+    margin-top: 60px;
+}
+
+/* Main Container */
+.explore_exploreGiideList__1R6Iy {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(4,auto);
     overflow: hidden;
+}
+
+.explore_cardContainerFeatured__2IzXs {
+    margin-bottom: 60px;
+}
+
+.explore_cardContainer__1FiHX {
+    grid-column: 2/13;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 1200px){
+.explore_cardContainer__1FiHX {
+    white-space: nowrap;
+}
 }
