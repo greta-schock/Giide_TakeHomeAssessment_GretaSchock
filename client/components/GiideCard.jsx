@@ -18,7 +18,6 @@ const GiideCard = ({ giideItem }) => {
                         <div>
                             <p>{giideItem.title}</p>
                             <p>{giideItem.duration}</p>
-
                         </div>
                         <p>By {giideItem.author}</p>
                     </div>

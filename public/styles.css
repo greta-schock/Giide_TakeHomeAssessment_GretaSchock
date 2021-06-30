@@ -39,7 +39,7 @@ main * {
     overflow: hidden;
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
     .components_exploreGiideCardFeatured__25eDt {
         max-width: none;
         margin-bottom: 40px;
