@@ -71,7 +71,7 @@ main * {
     margin-right: 15px;
 }
 
-.components_giideCardContent > div {
+.components_giideCardContent>div {
     display: flex;
     flex-direction: column;
 }
@@ -80,4 +80,13 @@ main * {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+}
+
+.components_giideCardTitle {
+    font-weight: 500;
+}
+
+.components_giideCardAuthor {
+    font-size: 8pt!important;
+    font-family: "Montserrat"!important;
 }
