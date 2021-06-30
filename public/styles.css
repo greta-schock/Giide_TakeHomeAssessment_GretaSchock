@@ -72,6 +72,8 @@ main * {
     height: 100%;
 }
 
+/* Individual Card - Card Content */
+
 .components_giideCardContent {
     /* padding: 15px;
     box-sizing: border-box;
