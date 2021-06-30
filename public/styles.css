@@ -1,6 +1,7 @@
 body, p, div {
     font-family: 'Lato', sans-serif;
     font-size: 10pt;
+    color: #202e38;
 }
 
 body, strong {
@@ -57,12 +58,6 @@ main * {
     overflow: hidden;
 }
 
-@media (max-width: 450px) {
-    .components_exploreGiideCardFeatured__25eDt {
-        max-width: none;
-        margin-bottom: 40px;
-    }
-}
 
 .components_giideCardThumbnailContainer {
     object-fit: contain;
@@ -102,7 +97,7 @@ main * {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-
+    
 }
 
 .components_giideCardTitle {
@@ -113,4 +108,12 @@ main * {
 .components_giideCardAuthor {
     font-size: 8pt!important;
     font-family: "Montserrat"!important;
+}
+
+/* Minimized Screen Carousel CSS */
+@media (max-width: 450px) {
+    .components_exploreGiideCardFeatured__25eDt {
+        max-width: none;
+        margin-bottom: 40px;
+    }
 }
