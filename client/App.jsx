@@ -9,6 +9,7 @@ const App = () => {
 
     return (
         <div className="exploreGiideList">
+            {/* Explore Giide List */}
             <h2>Explore</h2>
             <div className="cardContainer cardContainerFeatured">
                 {exploreGiideList.map((giideItem, index) => (
@@ -18,6 +19,7 @@ const App = () => {
                     />
                 ))}
             </div>
+            {/* Learn Giide List */}
             <h2>Learn</h2>
             <div className="cardContainer cardContainerFeatured">
                 {learnGiideList.map((giideItem, index) => (

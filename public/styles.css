@@ -4,15 +4,18 @@ body, p, div {
     color: #202e38;
 }
 
-body, strong {
-    font-family: 'Lato', sans-serif;
+a, body, h1, h2, h3, h4, h5, li, p, ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block;
 }
 
 h2 {
     margin-top: 60px;
 }
 
-main * {
+main {
     width: 100%;
 }
 
@@ -78,7 +81,7 @@ main * {
 .components_giideCardContent {
     padding: 15px;
     box-sizing: border-box;
-    /* display: flex; */
+    display: flex;
 }
 
 /* Individual Card - Card Content - Green Play Icon */
@@ -90,17 +93,17 @@ main * {
     margin-right: 15px;
 }
 
-.components_giideCardContent_container{
+.components_giideCardContent>div{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.components_giideCardContent_titleDuration {
+.components_giideCardContent>div>div {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
 }
-
 
 .components_giideCardAuthor {
     font-size: 8pt!important;
