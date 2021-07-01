@@ -108,10 +108,16 @@ main * {
 }
 
 /* Minimized Screen Carousel CSS */
-/* @media (max-width: 450px) {
-    .components_exploreGiideCardFeatured__25eDt {
+
+@media screen and (max-width: 1200px) {
+    .cardContainer {
+        white-space: nowrap;
+}
+}
+@media screen and (max-width: 450px) {
+    .cardContainerFeatured {
         max-width: none;
         margin-bottom: 40px;
     }
-} */
+}
 
