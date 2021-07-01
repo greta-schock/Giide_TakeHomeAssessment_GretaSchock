@@ -17,12 +17,13 @@ const GiideCard = ({ giideItem }) => {
                     <div className="components_giideCardContent_container">
                         <div className="components_giideCardContent_titleDuration">
                             <p style={{fontWeight: "500"}}>{giideItem.title}</p>
-                            <p>{giideItem.duration}</p>
+                            <p >{giideItem.duration}</p>
                         </div>
                         <p className="components_giideCardAuthor">By {giideItem.author}</p>
                     </div>
                 </div>
             </a>
+
         </>
     )
 }
